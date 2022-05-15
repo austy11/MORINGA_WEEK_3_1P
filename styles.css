@@ -10,6 +10,23 @@
 .cursor{
     cursor: pointer;
 }
+fieldset{
+    margin: auto;
+    padding: 15px;
+    border: 8px solid rgb(236, 64, 103);
+    border-radius: 25px;
+    width: 90%;
+    }
+legend{
+    background-color: white;
+    color: green;
+    width: fit-content;
+    font-size: 20px;
+    font-weight:bold;
+}
+.subcontainer1{
+margin-top: 0%;
+}
 .QuizIntro{
     width: 100%;
     height: fit-content;
@@ -26,16 +43,8 @@
     width: 100%;
     height: fit-content;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 17px;
     /* background-color: rgb(246, 255, 127); */
-}
-.questionContainer{
-    /* background-color: bisque; */
-    width: 50%;
-    margin: auto;
-    height: fit-content;
-    padding: 15px 10px;
-    border: solid 1px #EC4067;
 }
 .choices{
     /* background-color: rgb(153, 153, 212); */
@@ -54,11 +63,10 @@ input{
 }
 .nxtbut{
     padding: 8px 24px;
-    background-color: #EC4067;
+    background-color: rgb(236, 64, 103, 0.7);
     color: white;
     border-style: none;
     font-size: 16px;
-    font-weight: bold;
 }
 .prevbut{
     padding: 8px 24px;
@@ -66,5 +74,4 @@ input{
     background-color: white;
     border: solid 1px #EC4067;
     font-size: 16px;
-    font-weight: bold;
 }
