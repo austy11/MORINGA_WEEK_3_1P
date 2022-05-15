@@ -34,7 +34,6 @@ margin-top: 0%;
     width: 100%;
     height: fit-content;
     padding: 20px 0;
-    /* background-color: aquamarine; */
 }
 .head{
     width: fit-content;
@@ -47,10 +46,8 @@ margin-top: 0%;
     height: fit-content;
     padding: 20px 0;
     font-size: 17px;
-    /* background-color: rgb(246, 255, 127); */
 }
 .choices{
-    /* background-color: rgb(153, 153, 212); */
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -66,7 +63,7 @@ input{
 }
 .nxtbut{
     padding: 8px 24px;
-    background-color: rgb(236, 64, 103, 0.7);
+    background-color: rgb(236, 64, 103);
     color: white;
     border-style: none;
     font-size: 16px;
@@ -74,6 +71,7 @@ input{
 .prevbut{
     padding: 8px 24px;
     color: #EC4067;
+    font-weight: bold;
     background-color: white;
     border: solid 1px #EC4067;
     font-size: 16px;
