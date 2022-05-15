@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.pink{
+    color: #EC4067;
+}
+.cursor{
+    cursor: pointer;
+}
+.QuizIntro{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+    /* background-color: aquamarine; */
+}
+.head{
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.questionArea{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+    font-size: 20px;
+    /* background-color: rgb(246, 255, 127); */
+}
+.questionContainer{
+    /* background-color: bisque; */
+    width: 50%;
+    margin: auto;
+    height: fit-content;
+    padding: 15px 10px;
+    border: solid 1px #EC4067;
+}
+.choices{
+    /* background-color: rgb(153, 153, 212); */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 40px;
+}
+.navbuttons{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nxtbut{
+    padding: 8px 24px;
+    background-color: #EC4067;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.prevbut{
+    padding: 8px 24px;
+    color: #EC4067;
+    background-color: white;
+    border: solid 1px #EC4067;
+    font-size: 16px;
+    font-weight: bold;
+}
