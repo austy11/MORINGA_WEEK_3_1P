@@ -107,6 +107,7 @@ document.getElementById('prevbut10').onclick = function(){
     document.getElementById('questionArea9').style.display = "block"; 
     document.getElementById('questionArea10').style.display = "none";
 }
-// submit btn
-document.getElementById('submit').onclick = function(){
+document.getElementById('newAttempt').onclick = function(){
+    document.getElementById('questionArea1').style.display = "block"; 
+    document.getElementById('questionArea11').style.display = "none";
 }
