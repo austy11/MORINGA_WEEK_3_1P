@@ -1,14 +1,17 @@
-# Independent Project - Quiz Board
-_Author_- Steve Austin
+# WEEK 3 Independent Project | Quiz Board
+_Author:Steve Austin_
 
-_Version_- 1.0.0
+_Version:1.0.0_
 
 ---
+
+This repo contains the week 3 independent project.
+
 The goal of this week's Independent Project was to help practice and understand better the concepts that were covered throughout this week.
 
-These included js intergration into the webpage to define the ehavoiur of the page.
+These included Javascript intergration into the webpage to define the behavoiur of the page.
 
-This repository contains the code to simulate an online test, employing html, css and javascript.
+Given as the ultimate project goal were:
 
 ## OBJECTIVES
 1. As a user, I want to see the multi-choice questions when the website loads. You will create the multi-choice questions to be answered on the website. Each question should have a number of points awarded when scored right.
@@ -16,8 +19,18 @@ This repository contains the code to simulate an online test, employing html, cs
 1. As a user, I want to submit my answers when I'm done taking the quiz.
 1. As a user, I want to get the results of what I scored after submitting my answers on the website.
 
->[SOLUTION](...)
+>[SOLUTION](https://austy11.github.io/MORINGA_WEEK_3_1P/)
+---
+### Program setup instructions
+To utilize this code, clone into the repo to obtain the source code and assets, which can then be run by:
 
-*[Licence]* & Copyright
+    1. Open the terminal in the cloned directory.
 
-©Steve Austin- Moringa School 2022
+    2. Run VsCode in this path by command 'code .'
+
+    3. Navigate to and open 'index.html'
+
+    4. launch live server by clicking ALT+L+O in VsCode.
+[Licence](https://github.com/austy11/MORINGA_WEEK_3_1P/blob/main/LICENSE) & Copyright
+
+##### ©Lukanu M Stephen, Moringa School 2022
