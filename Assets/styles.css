@@ -1,3 +1,10 @@
+@media screen and (min-width: 480px) {
+    body{
+        width: fit-content;
+        height: auto;
+    }
+    
+}
 *{
     margin: 0;
     padding: 0;
@@ -58,7 +65,7 @@ input{
 }
 .navbuttons{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -66,7 +73,7 @@ input{
     padding: 8px 24px;
     background-color: rgb(236, 64, 103);
     color: white;
-    border-style: none;
+    border-style: 2px solid black;
     font-size: 16px;
 }
 .prevbut{
@@ -76,4 +83,15 @@ input{
     background-color: white;
     border: solid 1px #EC4067;
     font-size: 16px;
+}
+.displaystyle{
+    background-color: azure;
+    font-size: larger;
+    text-align: center;
+}
+.resultArea{
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+    font-size: 30px;
 }
